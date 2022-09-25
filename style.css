@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.img-content{
+    flex-basis: 45%;
+}
+.img-content img{
+    filter: brightness(50%);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.img-content h1{
+    position: absolute;
+    color: white;
+    padding: 5rem 3rem;
+    font-size: 4rem;
+    width: 30rem;
+    z-index: 1;
+}
+.img-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem 0 0;
+}
+.img-icon img{
+    width: 70px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 10rem 0 0;
+}
+.form-text{
+    color: #424242;
+}
+.form-text h2{
+    font-size: 64px;
+}
+.form-text p{
+    font-size: 17px;
+    width: 44%;
+}
+.form-login{
+    padding: 3rem 0;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    color: #D0CCCC;
+}
+.form input{
+    border: none;
+    outline: none;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    color:  #424242;
+}
+.form-remb{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.form-remb a{
+    text-decoration: none;
+    color: black;
+}
+.button-content{
+    display: flex;
+    gap: 1rem;
+}
+.button-content a{
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.button-content a:hover{
+    background-color: black;
+    color: white;
+}
+.text{
+    padding: 4rem 0 0 0;
+    width: 55%;
+    color: #D0CCCC;
+}
+.text span{
+    color: black;
+}
+.button-content2{
+    padding: 2rem 0 0 0;
+}
+.button-content2 a{
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.button-content2 a:hover{
+    background-color: black;
+    color: white;
+}
+.text2{
+    padding: 1px 0 0 0;
+    width: 55%;
+    color: #D0CCCC;
+}
+.text2 span{
+    color: black;
+}
