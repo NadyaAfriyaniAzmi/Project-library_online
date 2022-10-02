@@ -1,19 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .container{
     display: flex;
     justify-content: space-between;
 }
-.img-content{
-    flex-basis: 45%;
-}
 .img-content img{
+    align-items: center;
     filter: brightness(50%);
     display: flex;
     width: 100%;
     height: 100vh;
+    background-size: cover;
 }
 .img-content h1{
     position: absolute;
@@ -22,6 +24,14 @@
     font-size: 4rem;
     width: 30rem;
     z-index: 1;
+}
+.img-content h3{
+    position: absolute;
+    z-index: 1;
+    color: white;width: 378px;
+    /* height: 30px; */
+    left: 30px;
+    top: 44rem;
 }
 .img-icon{
     display: flex;
@@ -35,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 10rem 0 0;
+    padding: 2rem 16rem 0 0;
 }
 .form-text{
     color: #424242;
@@ -75,20 +85,28 @@
     text-decoration: none;
     color: black;
 }
+input[type="checkbox"]{
+    height: 1.4rem;
+    width: 1.4rem;
+}
 .button-content{
     display: flex;
     gap: 1rem;
 }
-.button-content a{
-    padding: 5px 15px;
+.btn-login{
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.btn-signup{
+    padding: 10px 25px;
     border-radius: 4px;
     border: 1px solid black;
     text-decoration: none;
     color: black;
-}
-.button-content a:hover{
-    background-color: black;
-    color: white;
 }
 .text{
     padding: 4rem 0 0 0;
@@ -101,16 +119,20 @@
 .button-content2{
     padding: 2rem 0 0 0;
 }
-.button-content2 a{
+.btn-login2{
     padding: 5px 15px;
     border-radius: 4px;
     border: 1px solid black;
     text-decoration: none;
     color: black;
 }
-.button-content2 a:hover{
-    background-color: black;
+.btn-signup2{
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
     color: white;
+    background-color: black;
 }
 .text2{
     padding: 1px 0 0 0;
